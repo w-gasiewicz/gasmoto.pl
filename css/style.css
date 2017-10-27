@@ -1,0 +1,31 @@
+body{
+background-image: url("https://i.stack.imgur.com/NEuip.jpg");
+filter: alpha(opacity=20);
+}
+.menu{
+	color:white;
+	width: auto;
+	display: inline-block;
+	align:to-left;
+	background-color: #333;
+}
+.menuLine{
+	display: block;
+	margin-top: 5px;
+}
+.login{
+	color:white;
+	width:auto;
+	align:to-right;
+	margin-left:90%;
+	display:inline-block;
+	background-color: #333;
+}
+.loginLine{
+		display: block;
+		margin-top:5px;
+}
+.banner{
+	margin: 0 auto;
+	width: 500px;
+}
