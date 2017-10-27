@@ -1,0 +1,1 @@
+# gasmoto.pl
