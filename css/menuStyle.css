@@ -1,0 +1,6 @@
+.menu input{
+border-radius: 5px;
+}
+.menu input.opis{
+	width:100px;
+}

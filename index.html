@@ -14,6 +14,7 @@
 
 <head>
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel="stylesheet" href="css/menuStyle.css" type="text/css"/>
 
 <link rel="Shortcut icon" href="obrazy/ikona.png" />
 <meta charset="utf-8"/>
@@ -42,7 +43,7 @@
 
 <div class="loginLine"> Login: <input name="opis" type="opis" placeholder="login"></div>
 <div class="loginLine">Hasło: <input name="opis" type="opis" placeholder="hasło"></div>
-<button type="button"> Zaloguj</button>
+<button type="button"> Zaloguj</button>   <button type="button"> Załóż nowe konto</button>
 </div>
 
 <div class="banner">
@@ -53,8 +54,9 @@
 <ul class="menu">
 <form action="...">
 <div class="menuLine">
-Marka
+Marka:
 	<select name="nazwa">
+<option>Wszystkie</option>
 <option>Acura</option>
 <option>Alfa Romeo</option>
 <option>Alpina</option>
@@ -135,9 +137,59 @@ Marka
 </div>
 
 <div class="menuLine">
-Model <input name="opis" type="opis" placeholder="model pojazdu">
+Model: <input name="opis" type="opis" placeholder="model pojazdu">
 </div>
 
+<div class="menuLine">
+Cena: <input name="opis" type="opis" placeholder="od">zł <input name="opis" type="opis" placeholder="do">zł
+</div>
+
+<div class="menuLine">
+Rok produkcji: <input name="opis" type="opis" placeholder="od"> <input name="opis" type="opis" placeholder="do">
+</div>
+
+<div class="menuLine">
+Przebieg: <input name="opis" type="opis" placeholder="od">km <input name="opis" type="opis" placeholder="do">km
+</div>
+
+<div class="menuLine">
+Moc: <input name="opis" type="opis" placeholder="od">KM <input name="opis" type="opis" placeholder="do">KM
+</div>
+
+<form action="...">
+<div class="menuLine">
+Nadwozie: 
+<select name="nazwa">
+<option>Kombi</option>
+<option>SUV</option>
+<option>Sedan/Limuzyna</option>
+<option>Cabrio/Roadster</option>
+<option>VAN</option>
+<option>Coupe</option>
+<option>Hatchback</option>
+(...)
+</select>
+</form>
+
+<form action="...">
+<div class="menuLine">
+Rodzaj paliwa: 
+<select name="nazwa">
+<option>Wszystkie</option>
+<option>Benzyna</option>
+<option>Diesel</option>
+<option>Benzyna + LPG</option>
+<option>Hybryda</option>
+<option>Elektryczny</option>
+(...)
+</select>
+</form>
+
+<div class="menuLine">
+Miejscowość: <input name="opis" type="opis" placeholder="nazwa miejscowości">
+</div>
+
+</div>
 <div class="menuLine">
 <input name="opis" type="opis" placeholder="dodatkowy opis">
 <button type="button"> Szukaj </button>
@@ -145,7 +197,7 @@ Model <input name="opis" type="opis" placeholder="model pojazdu">
 </div>
 
 </div>
-
+</div>
 
 
 </body>
